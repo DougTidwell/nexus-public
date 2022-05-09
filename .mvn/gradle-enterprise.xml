@@ -3,7 +3,7 @@
     <url>https://events.gradle.com</url>
   </server>
   <buildScan>
-    <backgroundBuildScanUpload>#{env['CI'] == null}</backgroundBuildScanUpload>
+    <backgroundBuildScanUpload>#{isFalse(env['CI'])}</backgroundBuildScanUpload>
     <capture>
       <goalInputFiles>true</goalInputFiles>
     </capture>
@@ -11,7 +11,7 @@
   </buildScan>
   <buildCache>
     <local>
-      <enabled>false</enabled>
+      <enabled>true</enabled>
     </local>
     <remote>
       <enabled>false</enabled>
