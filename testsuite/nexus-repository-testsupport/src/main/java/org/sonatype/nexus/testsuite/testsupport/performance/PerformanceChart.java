@@ -113,13 +113,13 @@ public class PerformanceChart
     final SystemInfo systemInfo = new SystemInfo();
     final HardwareAbstractionLayer hardware = systemInfo.getHardware();
 
-    final Processor[] processors = hardware.getProcessors();
+    // final Processor[] processors = hardware.getProcessors();
 
-    b.append("Processor: ").append(processors[0].getIdentifier()).append("\n");
+    // b.append("Processor: ").append(processors[0].getIdentifier()).append("\n");
 
-    for (Processor p : processors) {
-      b.append("\t").append(p.getName()).append("\n");
-    }
+    // for (Processor p : processors) {
+    //   b.append("\t").append(p.getName()).append("\n");
+    // }
 
     final Memory memory = hardware.getMemory();
     b.append(String.format("Memory: %,d Mb\n", memory.getTotal() / (1024 * 1024)));

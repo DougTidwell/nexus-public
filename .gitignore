@@ -4,7 +4,14 @@
 .settings/
 
 # Maven
+.mvn/.gradle-enterprise/
+buildsupport/
+components/
+node_modules/
+plugins/
 target/
+testsuite/
+thirdparty-bundles/
 *.ser
 *.ec
 

@@ -1,0 +1,20 @@
+<gradleEnterprise>
+  <server>
+    <url>https://events.gradle.com</url>
+  </server>
+  <buildScan>
+    <backgroundBuildScanUpload>#{env['CI'] == null}</backgroundBuildScanUpload>
+    <capture>
+      <goalInputFiles>true</goalInputFiles>
+    </capture>
+    <publish>ALWAYS</publish>
+  </buildScan>
+  <buildCache>
+    <local>
+      <enabled>false</enabled>
+    </local>
+    <remote>
+      <enabled>false</enabled>
+    </remote>
+  </buildCache>
+</gradleEnterprise>
