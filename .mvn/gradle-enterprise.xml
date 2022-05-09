@@ -15,6 +15,7 @@
     </local>
     <remote>
       <enabled>true</enabled>
+      <storeEnabled>true</storeEnabled>
     </remote>
   </buildCache>
 </gradleEnterprise>
