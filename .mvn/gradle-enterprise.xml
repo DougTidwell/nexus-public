@@ -11,11 +11,11 @@
   </buildScan>
   <buildCache>
     <local>
-      <enabled>false</enabled>
+      <enabled>true</enabled>
     </local>
     <remote>
-      <enabled>true</enabled>
-      <storeEnabled>true</storeEnabled>
+      <enabled>false</enabled>
+      <storeEnabled>false</storeEnabled>
     </remote>
   </buildCache>
 </gradleEnterprise>
