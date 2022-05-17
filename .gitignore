@@ -8,6 +8,7 @@
 .mvn/.gradle-enterprise/
 buildsupport/
 components/
+gradle-enterprise-maven-build-validation/
 node_modules/
 plugins/
 target/

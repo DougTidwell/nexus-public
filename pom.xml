@@ -1146,19 +1146,11 @@
             <gradleEnterprise>
               <normalization>
                 <runtimeClassPath>
-                  <metaInf>
-                    <ignoreCompletely>true</ignoreCompletely>
-<!--                    <ignoredProperties>
-                      <ignore>build.revision</ignore>
-                      <ignore>build.timestamp</ignore>
-                      <ignore>Bnd-LastModified</ignore>
-                    </ignoredProperties> --> 
-                  </metaInf> 
-                  <!--                <ignoredFiles>
-                  <ignoredFile>META-INF/build.properties</ignoredFile>
-                  <ignoredFile>META-INF/MANIFEST.MF</ignoredFile>
-                  <ignoredFile>**/pom.properties</ignoredFile>
-                </ignoredFiles> -->
+                  <ignoredFiles>
+                    <ignoredFile>META-INF/build.properties</ignoredFile>
+                    <ignoredFile>META-INF/MANIFEST.MF</ignoredFile>
+                    <ignoredFile>**/pom.properties</ignoredFile>
+                  </ignoredFiles>
                 </runtimeClassPath>
               </normalization>
             </gradleEnterprise>
