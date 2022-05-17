@@ -1152,6 +1152,7 @@
                     </ignoredAttributes>
                   </metaInf>
                   <ignoredFiles>
+                    <ignoredFile>**/META-INF/MANIFEST.MF</ignoredFile>
                     <ignoredFile>**/pom.properties</ignoredFile>
                     <ignoredFile>**/baseapp-debug.css</ignoredFile>
                     <ignoredFile>**/baseapp-prod.css</ignoredFile>
