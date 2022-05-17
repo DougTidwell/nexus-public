@@ -1158,6 +1158,7 @@
                     <ignoredFile>**/version.properties</ignoredFile>
                     <ignoredFile>**/baseapp-debug.css</ignoredFile>
                     <ignoredFile>**/baseapp-prod.css</ignoredFile>
+                    <ignoredFile>**/nexus-coreui-plugin-prod.css</ignoredFile>
                   </ignoredFiles>
                 </runtimeClassPath>
               </normalization>
