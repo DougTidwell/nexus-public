@@ -1146,11 +1146,13 @@
             <gradleEnterprise>
               <normalization>
                 <runtimeClassPath>
+                  <metaInf>
+                    <ignoredAttributes>
+                      <ignore>Bnd-LastModified</ignore>
+                    </ignoredAttributes>
+                  </metaInf>
                   <ignoredFiles>
-                    <ignoredFile>META-INF/build.properties</ignoredFile>
-                    <ignoredFile>META-INF/MANIFEST.MF</ignoredFile>
                     <ignoredFile>**/pom.properties</ignoredFile>
-                    <ignoredFile>**/version.properties</ignoredFile>
                     <ignoredFile>**/baseapp-debug.css</ignoredFile>
                     <ignoredFile>**/baseapp-prod.css</ignoredFile>
                   </ignoredFiles>
